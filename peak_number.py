@@ -10,3 +10,7 @@ def peaknum(arr):
 
 arr=[2,4,5,7,8,9]
 print(peaknum(arr))
+
+
+#To find the peak number 
+#to check the adjacent number is less than that number if the arr has the peak element it returns true otherwisw false 
