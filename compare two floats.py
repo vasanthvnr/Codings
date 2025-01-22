@@ -3,6 +3,7 @@
 def compare(n1,n2):
     n1=int(n1*1000)
     n2 = int(n2*1000)
+    #by converting into decimals in three decimals ie 1000
     if n1==n2:
         return True
     return False
