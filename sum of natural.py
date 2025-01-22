@@ -4,3 +4,6 @@ def natural_num(n):
 
 m=int(input("Enter the number:"))
 print(natural_num(m))
+
+
+#sum of naturals using formula
