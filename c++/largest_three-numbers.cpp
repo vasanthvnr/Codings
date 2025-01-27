@@ -5,6 +5,7 @@ int main(){
   int A,B,C;
   cout<<"Enter the three values";
   cin>>A>>B>>C;
+  //to use nested if and two if block to check the three numbers
   if(A>B){
       if(A>C){
           cout<<A<<" is greater"<<endl;
@@ -23,3 +24,5 @@ int main(){
   }
 
 }
+
+
