@@ -1,8 +1,7 @@
-
 import java.util.Scanner;
 public class date {
     static boolean isLeapyear(int a){
-        return (a%4==0 && a%100!=0 || a%400==0);
+        return (a%4==0 && a%100!=0 || a%400==0);//to check the leap year
     }
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -12,7 +11,7 @@ public class date {
         int year=Integer.parseInt(s1[0]);
         int month =Integer.parseInt(s1[1]);
         int date=Integer.parseInt(s1[2]);
-        int[] days ={31,28,31,30,31,30,31,31,30,31,30,31};
+        int[] days ={31,28,31,30,31,30,31,31,30,31,30,31};//initialize the days in each month
         if(isLeapyear(year)){
             days[1]=29;
         }
@@ -21,7 +20,7 @@ public class date {
             daysY+=days[i];
 
         }
-        daysY+=date;
+        daysY+=date;//adding all the date and given and month
         System.out.println(daysY);
 
 
