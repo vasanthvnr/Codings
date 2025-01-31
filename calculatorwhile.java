@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class calculator {
+public class calculatorwhile {
     public static void main(String[] args) {
         while(true){
             Scanner input = new Scanner(System.in);
             System.out.println("Enter your Operation :");
             String s=input.nextLine();
             if(s.equals("esc"))break;
-
+//use switch case to run a calculator
             switch(s){
                 case "+":
                     System.out.println("Enter the two values: ");
