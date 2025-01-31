@@ -1,13 +1,14 @@
 import java.util.Scanner;
 public class calculatordo {
     public static void main(String[] args) {
+        //use do while to run a program
         do{
             Scanner input = new Scanner(System.in);
             System.out.println("Enter your Operation :");
             String s=input.nextLine();
             if(s.equals("esc"))break;
 
-            switch(s){
+            switch(s){//using same switch case
                 case "+":
                     System.out.println("Enter the two values: ");
                     int a  =input.nextInt();
