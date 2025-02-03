@@ -1,3 +1,3 @@
 # Codings
 
-My Python Problems are there from Scratch
+My Problems are there from Scratch
