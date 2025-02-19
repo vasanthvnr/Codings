@@ -16,5 +16,6 @@ class Solution {
     public static void main(String... args){
         String a="fly of moon ";
         int S=lengthOfLastWlrd(a);
-        System.out.println(S)
+        System.out.println(S);
+    }
 }
