@@ -13,4 +13,8 @@ class Solution {
 
         return last - start;        
     }
+    public static void main(String... args){
+        String a="fly of moon ";
+        int S=lengthOfLastWlrd(a);
+        System.out.println(S)
 }
